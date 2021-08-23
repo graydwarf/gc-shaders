@@ -17,7 +17,3 @@ _global_script_class_icons={
 
 config/name="gc-shaders"
 run/main_scene="res://examples.tscn"
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"
