@@ -31,13 +31,13 @@ shader_param/speed = 0.05
 shader_param/smokeColor = Color( 1, 1, 1, 1 )
 shader_param/noise_img = ExtResource( 2 )
 
-[node name="stranger-things" type="PanelContainer"]
-self_modulate = Color( 0.223529, 0.223529, 0.223529, 1 )
-anchor_right = 1.0
-anchor_bottom = 1.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
+[node name="stranger-things" type="Node2D"]
 script = ExtResource( 3 )
+
+[node name="BackgroundColor" type="PanelContainer" parent="."]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_right = 447.0
+margin_bottom = 446.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
