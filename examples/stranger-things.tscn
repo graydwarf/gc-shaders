@@ -35,6 +35,7 @@ shader_param/noise_img = ExtResource( 2 )
 script = ExtResource( 3 )
 
 [node name="BackgroundColor" type="PanelContainer" parent="."]
+visible = false
 self_modulate = Color( 0, 0, 0, 1 )
 margin_right = 447.0
 margin_bottom = 446.0
