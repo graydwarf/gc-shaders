@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="gc-shaders"
-run/main_scene="res://main.tscn"
+run/main_scene="res://shaders-example.tscn"
 
 [autoload]
 
