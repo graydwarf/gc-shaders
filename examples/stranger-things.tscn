@@ -34,17 +34,8 @@ shader_param/noise_img = ExtResource( 2 )
 [node name="stranger-things" type="Node2D"]
 script = ExtResource( 3 )
 
-[node name="BackgroundColor" type="PanelContainer" parent="."]
-visible = false
-self_modulate = Color( 0, 0, 0, 1 )
-margin_right = 447.0
-margin_bottom = 446.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="icon" type="Sprite" parent="."]
 material = SubResource( 2 )
-position = Vector2( 228, 228 )
+position = Vector2( 192, 194 )
 scale = Vector2( 3, 3 )
 texture = ExtResource( 1 )
