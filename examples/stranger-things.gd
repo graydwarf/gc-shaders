@@ -6,3 +6,10 @@ extends Node2D
 # Note: The black PanelContainer was added so the animation can
 # be more easily seen.
 
+# gc support function
+func Start():
+	pass
+
+# gc support function
+func Stop():
+	pass
