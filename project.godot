@@ -16,8 +16,8 @@ _global_script_class_icons={
 [application]
 
 config/name="gc-shaders"
-run/main_scene="res://shaders-example.tscn"
+run/main_scene="res://shader-examples.tscn"
 
 [autoload]
 
-Signals="*res://singletons/signals.gd"
+ShaderSignals="*res://singletons/shader-signals.gd"
