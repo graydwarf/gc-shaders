@@ -8,7 +8,7 @@ func _ready() -> void:
 	LoadExampleNodes()
 
 func InitSignals():
-	var _ignore = ShaderSignals.connect("LoadExample", self, "LoadExampleHandler")
+	var _ignore = Signals.connect("LoadExample", self, "LoadExampleHandler")
 
 func LoadExampleNodes():
 	for node in _panelContainer.get_children():

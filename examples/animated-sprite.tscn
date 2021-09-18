@@ -1,0 +1,40 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://assets/run_animation/run-6.png" type="Texture" id=1]
+[ext_resource path="res://assets/run_animation/run-7.png" type="Texture" id=2]
+[ext_resource path="res://examples/animated-sprite.gd" type="Script" id=3]
+[ext_resource path="res://assets/run_animation/run-3.png" type="Texture" id=4]
+[ext_resource path="res://assets/run_animation/run-4.png" type="Texture" id=5]
+[ext_resource path="res://assets/run_animation/run-1.png" type="Texture" id=6]
+[ext_resource path="res://assets/run_animation/run-2.png" type="Texture" id=7]
+[ext_resource path="res://assets/run_animation/run-8.png" type="Texture" id=8]
+[ext_resource path="res://assets/run_animation/run-5.png" type="Texture" id=9]
+[ext_resource path="res://examples/left-right-keyboard-keys.tscn" type="PackedScene" id=10]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 9 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "run",
+"speed": 10.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 19, 31 )
+
+[node name="AnimatedSprite" type="KinematicBody2D"]
+script = ExtResource( 3 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 113, 131 )
+frames = SubResource( 1 )
+animation = "run"
+frame = 1
+
+[node name="KeyboardKeys" parent="." instance=ExtResource( 10 )]
+position = Vector2( 63.8999, 220.954 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2( 112, 137 )
+shape = SubResource( 2 )
