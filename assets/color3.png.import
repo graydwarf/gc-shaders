@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/run-2.png-b7aefea57eec3b528b76e9e0309bc3cd.stex"
+path="res://.import/color3.png-f318d0b43d717df11d1aa5c372bda250.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/run_animation/run-2.png"
-dest_files=[ "res://.import/run-2.png-b7aefea57eec3b528b76e9e0309bc3cd.stex" ]
+source_file="res://assets/color3.png"
+dest_files=[ "res://.import/color3.png-f318d0b43d717df11d1aa5c372bda250.stex" ]
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
-flags/repeat=0
+flags/repeat=1
 flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
